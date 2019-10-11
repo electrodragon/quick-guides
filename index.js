@@ -36,7 +36,7 @@ let content = [
 app.get("/c", (req, res) => {
   res.render('c',{
     title: 'C - Quick Guide',
-    stylesheet: '/css/style.css',
+    stylesheet: '/css/c_style.css',
   });
 });
 

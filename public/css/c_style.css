@@ -1,0 +1,138 @@
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body {
+  background-color: #f8a978;
+}
+
+/* Logo Styles */
+
+.logo {
+  color: #420000;
+}
+.logo h2 {
+  margin: 10px auto -15px;
+  font-size: 8rem;
+  font-family: 'Lobster', cursive;
+}
+.logo p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.logo .by {
+  font-size: 1.8rem;
+  padding: 0 6px;
+  font-family: 'Dancing Script', cursive;
+}
+.logo-horizontal-rule {
+  margin: 0 auto 10px;
+}
+
+@media (min-width: 700px) {
+  .logo .p1 {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo h2 {
+    font-size: 6rem;
+  }
+  .logo .p2 {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+/* Logo Styles End */
+
+/* list-of-contents Styles */
+
+.list-of-contents .title {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-top: 1px solid;
+  border-bottom: 5px dotted;
+  border-left: 25px solid;
+  border-color: #160f30;
+  border-radius: 0 0 100px 0;
+  width: 420px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: #160f30;
+}
+
+@media (max-width: 700px) {
+  .list-of-contents .title {
+    border-top: 1px solid;
+    border-bottom: 5px dotted;
+    border-left: 20px solid;
+    border-color: #160f30;
+    border-radius: 0 0 100px 0;
+    width: 370px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: #160f30;
+    font-size: 1.2rem;
+  }
+
+}
+
+.list-of-contents ul {
+  margin-left: -40px;
+}
+
+.list-of-contents ul li {
+  border-right: 5px dotted #3a1f5d;
+  border-left: 5px dotted #3a1f5d;
+  border-radius: 100px 50px;
+  background-color: #ffb3b3;
+  width: 320px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.list-of-contents ul li:hover {
+  color: white;
+  background-color: #f638dc;
+  font-weight: bold;
+}
+
+.list-of-contents ul li a {
+  padding-left: 5px;
+  color: #01024e;
+  font-family: Montserrat;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* list-of-contents Styles END */
+
+#preprocessor_directives .title {
+  font-family: 'Roboto Condensed', sans-serif;
+  border-top: 1px solid;
+  border-bottom: 5px dotted;
+  border-left: 25px solid;
+  border-color: #160f30;
+  border-radius: 0 0 100px 0;
+  width: 420px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: #160f30;
+}
+
+
+/* vertical | horizontal */
+/* top | horizontal | bottom */
+/* top | right | bottom | left */
