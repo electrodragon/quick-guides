@@ -1,0 +1,34 @@
+body {
+  background-color: #ddb6c6;
+}
+.main-prefix {
+  font-family: 'Dancing Script', cursive;
+  font-size:4rem;
+  font-weight: bold;
+}
+nav ul li {
+  padding: 0 15px 0 15px;
+  border-left: 5px dotted black;
+  border-bottom: 5px solid black;
+  border-radius: 100px;
+}
+.item {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.item .item-res img {
+  width: 4rem;
+  margin-bottom: 10px;
+}
+.item .item-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: brown;
+}
+@media (max-width: 771px) {
+  .main-prefix {
+    font-size:1.7rem;
+  }
+}
