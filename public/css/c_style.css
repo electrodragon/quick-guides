@@ -68,23 +68,6 @@ body {
   color: #160f30;
 }
 
-@media (max-width: 700px) {
-  .list-of-contents .title {
-    border-top: 1px solid;
-    border-bottom: 5px dotted;
-    border-left: 20px solid;
-    border-color: #160f30;
-    border-radius: 0 0 100px 0;
-    width: 370px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    color: #160f30;
-    font-size: 1.2rem;
-  }
-
-}
-
 .list-of-contents ul {
   margin-left: -40px;
 }
@@ -116,6 +99,16 @@ body {
   font-style: italic;
 }
 
+@media (max-width: 700px) {
+  .list-of-contents .title {
+    border-left: 20px solid;
+    width: 300px;
+    font-size: 1.2rem;
+  }
+  .list-of-contents ul li {
+    width: 300px;
+  }
+}
 /* list-of-contents Styles END */
 
 #preprocessor_directives .title {
